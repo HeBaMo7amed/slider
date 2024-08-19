@@ -1,0 +1,55 @@
+body {
+
+    background-image: url("../images/4bc841b21fbdd55f66b5ccb7e3a7bf83.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.ly {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(to right, sienna, peru, tan, burlywood, wheat);
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+i {
+    cursor: pointer;
+    color: wheat;
+}
+
+.text {
+    position: absolute;
+    background-color: tan;
+    bottom: 20px;
+    width: 70%;
+    left: 15%;
+    color: gray / grey;
+
+}
+
+.items img {
+    height: 200px;
+}
+
+#lightBoxContainer {
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+#lightBox {
+    width: 70%;
+    height: 530px;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width:800px) {
+    #lightBox {
+        width: 100%;
+    }
+}
